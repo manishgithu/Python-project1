@@ -1,0 +1,34 @@
+import countryinfo
+
+countryName=(input("ENter the name of Country to access information about that ->"))
+country=countryinfo.CountryInfo(countryName)
+print("\n")
+print("---------  Basic Information of Country %s  ---------"%country.name())
+
+print("\n")
+print("1:- Native Name of %s" %country.name()," -> ",country.native_name(),"\n")
+print("2:- Area of %s" %country.name()," -> ",country.area(),"km","\n")
+print("3:- Borders of %s" %country.name()," -> ",country.borders(),"\n")
+print("4:- Capital of %s" %country.name()," -> ",country.capital(),"\n")
+
+print("5:- Calling Code of %s" %country.name()," -> ",country.calling_codes(),"\n")
+print("6:- Alternative Names of %s" %country.name()," -> ",country.alt_spellings(),"\n")
+print("7:- Latitude and altitude of %s" %country.name()," -> ",country.capital_latlng(),"\n")
+print("8:- Currency of %s" %country.name()," -> ",country.currencies(),"\n")
+
+print("9:- DemoNym of %s" %country.name()," -> ",country.demonym(),"\n")
+print("10:- iSO of %s" %country.name()," -> ",country.iso(),"\n")
+print("11:- Lating of %s" %country.name()," -> ",country.latlng(),"\n")
+print("12:- Languages of %s" %country.name()," -> ",country.languages(),"\n")
+
+print("13:- Populations of %s" %country.name()," -> ",country.population(),"\n")
+print("14:- Region of %s" %country.name()," -> ",country.region(),"\n")
+print("15:- SubRegion of %s" %country.name()," -> ",country.subregion(),"\n")
+print("16:- TimeZone of %s" %country.name()," -> ",country.timezones(),"\n")
+
+
+print("17:- TLD of %s" %country.name()," -> ",country.tld(),"\n")
+print("18:- Tarnslations of %s" %country.name()," -> ",country.translations(),"\n")
+print("19:- WikiPedia of %s" %country.name()," -> ",country.wiki(),"\n")
+## All() method provides lot of information related to country so is time taking.
+###print("20:- ALL Info of %s" %country.name()," -> ",country.all(),"\n")

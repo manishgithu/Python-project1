@@ -1,2 +1,3 @@
-# Python-project1
-countryInfo , python project 1
+# Python-Projects
+countryInfo
+CLI based chat system
